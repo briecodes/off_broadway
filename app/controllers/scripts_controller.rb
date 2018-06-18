@@ -1,2 +1,0 @@
-class ScriptsController < ApplicationController
-end
