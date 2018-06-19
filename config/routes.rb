@@ -4,7 +4,8 @@ Rails.application.routes.draw do
       resources :users, only: [:index, :show, :create, :delete, :destroy]
       resources :productions, only: [:index, :show, :create, :delete, :destroy]
       resources :scripts, only: [:index, :show, :create, :delete, :destroy]
-      resources :characters, only: [:index, :show, :create, :delete, :destroy]
+      resources :actors, only: [:index, :show, :create, :delete, :destroy]
+      resources :casts, only: [:index, :show, :create, :delete, :destroy]
       # get 'users/username'
       # get 'users/password'
       # get 'users/password_digest'

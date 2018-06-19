@@ -3137,3 +3137,1074 @@ Processing by Api::V1::ScriptsController#show as HTML
 Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.4ms)
 
 
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateProductions (20180618212732)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (11.8ms)[0m  [1m[35mDROP TABLE "productions"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212732"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateScripts (20180618212114)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[35mDROP TABLE "scripts"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212114"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateCharacters (20180618212037)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[35mDROP TABLE "characters"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212037"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateUsers (20180618212021)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212021"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (146.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "off_broadway_backend_development"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (151.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "off_broadway_backend_test"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (433.7ms)[0m  [1m[35mCREATE DATABASE "off_broadway_backend_development" ENCODING = 'unicode'[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (301.6ms)[0m  [1m[35mCREATE DATABASE "off_broadway_backend_test" ENCODING = 'unicode'[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (6.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateUsers (20180618212021)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212021_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212021"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateActors (20180618212037)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "actors" ("id" bigserial primary key, "name" character varying, "cv" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212037_create_actors.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212037"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateScripts (20180618212114)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "scripts" ("id" bigserial primary key, "title" character varying, "user_id" integer, "line_1" character varying, "line_2" character varying, "line_3" character varying, "line_4" character varying, "line_5" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212114_create_scripts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212114"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateProductions (20180618212732)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "productions" ("id" bigserial primary key, "user_id" integer, "script_id" integer, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212732_create_productions.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212732"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateCasts (20180619174447)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "casts" ("id" bigserial primary key, "actor_id" integer, "production_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180619174447_create_casts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180619174447"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (1.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-06-19 17:57:44.730351"], ["updated_at", "2018-06-19 17:57:44.730351"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "theshun"], ["password", "shunthis"], ["created_at", "2018-06-19 17:57:52.387858"], ["updated_at", "2018-06-19 17:57:52.387858"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "notshun"], ["password", "shunthis"], ["created_at", "2018-06-19 17:57:52.391016"], ["updated_at", "2018-06-19 17:57:52.391016"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "2shun2quit"], ["password", "shunthis"], ["created_at", "2018-06-19 17:57:52.393006"], ["updated_at", "2018-06-19 17:57:52.393006"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "rashunalize"], ["password", "shunthis"], ["created_at", "2018-06-19 17:57:52.395733"], ["updated_at", "2018-06-19 17:57:52.395733"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "realshun"], ["password", "shunthis"], ["created_at", "2018-06-19 17:57:52.398794"], ["updated_at", "2018-06-19 17:57:52.398794"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateCasts (20180619174447)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[35mDROP TABLE "casts"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180619174447"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateProductions (20180618212732)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[35mDROP TABLE "productions"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212732"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateScripts (20180618212114)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[35mDROP TABLE "scripts"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212114"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateActors (20180618212037)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[35mDROP TABLE "actors"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212037"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateUsers (20180618212021)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.9ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180618212021"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (141.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "off_broadway_backend_development"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (138.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "off_broadway_backend_test"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (308.2ms)[0m  [1m[35mCREATE DATABASE "off_broadway_backend_development" ENCODING = 'unicode'[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (310.0ms)[0m  [1m[35mCREATE DATABASE "off_broadway_backend_test" ENCODING = 'unicode'[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateUsers (20180618212021)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212021_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212021"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateActors (20180618212037)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "actors" ("id" bigserial primary key, "name" character varying, "cv" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212037_create_actors.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212037"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateScripts (20180618212114)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "scripts" ("id" bigserial primary key, "title" character varying, "user_id" integer, "line_1" character varying, "line_2" character varying, "line_3" character varying, "line_4" character varying, "line_5" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212114_create_scripts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212114"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateProductions (20180618212732)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "productions" ("id" bigserial primary key, "user_id" integer, "script_id" integer, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180618212732_create_productions.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180618212732"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateCasts (20180619174447)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "casts" ("id" bigserial primary key, "actor_id" integer, "production_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180619174447_create_casts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180619174447"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-06-19 17:58:46.474997"], ["updated_at", "2018-06-19 17:58:46.474997"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6234894674440355805)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "theshun"], ["password", "shunthis"], ["created_at", "2018-06-19 17:58:50.655784"], ["updated_at", "2018-06-19 17:58:50.655784"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "notshun"], ["password", "shunthis"], ["created_at", "2018-06-19 17:58:50.660242"], ["updated_at", "2018-06-19 17:58:50.660242"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "2shun2quit"], ["password", "shunthis"], ["created_at", "2018-06-19 17:58:50.662822"], ["updated_at", "2018-06-19 17:58:50.662822"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "rashunalize"], ["password", "shunthis"], ["created_at", "2018-06-19 17:58:50.665117"], ["updated_at", "2018-06-19 17:58:50.665117"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "realshun"], ["password", "shunthis"], ["created_at", "2018-06-19 17:58:50.667467"], ["updated_at", "2018-06-19 17:58:50.667467"]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mActor Create (0.7ms)[0m  [1m[32mINSERT INTO "actors" ("name", "cv", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Adriana"], ["cv", "The Comedy of Errors"], ["img_url", "https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg"], ["created_at", "2018-06-19 17:58:50.684262"], ["updated_at", "2018-06-19 17:58:50.684262"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mActor Create (0.3ms)[0m  [1m[32mINSERT INTO "actors" ("name", "cv", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Isabel"], ["cv", "Richard II, Henry V"], ["img_url", "https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg"], ["created_at", "2018-06-19 17:58:50.687212"], ["updated_at", "2018-06-19 17:58:50.687212"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mActor Create (0.3ms)[0m  [1m[32mINSERT INTO "actors" ("name", "cv", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Rosalind"], ["cv", "As You Like It"], ["img_url", "https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg"], ["created_at", "2018-06-19 17:58:50.689680"], ["updated_at", "2018-06-19 17:58:50.689680"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mActor Create (0.3ms)[0m  [1m[32mINSERT INTO "actors" ("name", "cv", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Camillo"], ["cv", "The Winters Tale"], ["img_url", "https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg"], ["created_at", "2018-06-19 17:58:50.692016"], ["updated_at", "2018-06-19 17:58:50.692016"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mActor Create (0.3ms)[0m  [1m[32mINSERT INTO "actors" ("name", "cv", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Miranda"], ["cv", "The Tempest"], ["img_url", "https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg"], ["created_at", "2018-06-19 17:58:50.694404"], ["updated_at", "2018-06-19 17:58:50.694404"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mActor Create (0.3ms)[0m  [1m[32mINSERT INTO "actors" ("name", "cv", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Portia"], ["cv", "The Merchant of Venice, Julius Caesar"], ["img_url", "https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg"], ["created_at", "2018-06-19 17:58:50.696782"], ["updated_at", "2018-06-19 17:58:50.696782"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:65
+  [1m[36mScript Create (0.7ms)[0m  [1m[32mINSERT INTO "scripts" ("title", "user_id", "line_1", "line_2", "line_3", "line_4", "line_5", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Savior Without Hope"], ["user_id", 1], ["line_1", "A-Spare some change, please?"], ["line_2", "B-I thought someone should tell you that your mother has died."], ["line_3", "A-Have you read the newspaper stories about my wife?"], ["line_4", "B-She was unconscious when I found her"], ["line_5", "A-Whatever you are going to ask, the answer is No!"], ["img_url", "https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg"], ["created_at", "2018-06-19 17:58:50.730404"], ["updated_at", "2018-06-19 17:58:50.730404"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:65
+  [1m[36mScript Create (0.3ms)[0m  [1m[32mINSERT INTO "scripts" ("title", "user_id", "line_1", "line_2", "line_3", "line_4", "line_5", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Agent Of Hell"], ["user_id", 2], ["line_1", "A-You are too good for this world."], ["line_2", "B-You have taken her back? You cannot be serious?"], ["line_3", "A-The way you flirt is shameful."], ["line_4", "B-You embarrassed me this evening."], ["line_5", "A-I want to be there when you get whats coming to you."], ["img_url", "https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg"], ["created_at", "2018-06-19 17:58:50.733992"], ["updated_at", "2018-06-19 17:58:50.733992"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:65
+  [1m[36mScript Create (0.3ms)[0m  [1m[32mINSERT INTO "scripts" ("title", "user_id", "line_1", "line_2", "line_3", "line_4", "line_5", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Trees With A Goal"], ["user_id", 3], ["line_1", "A-What have you done with my pills? I need them!"], ["line_2", "B-We could get arrested for this."], ["line_3", "A-Find some proof that she had betrayed you."], ["line_4", "B-You think I am being paranoid but the truth is I am worth a lot more to her dead than alive."], ["line_5", "A-You have his eyes."], ["img_url", "https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg"], ["created_at", "2018-06-19 17:58:50.736957"], ["updated_at", "2018-06-19 17:58:50.736957"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:65
+  [1m[36mScript Create (0.3ms)[0m  [1m[32mINSERT INTO "scripts" ("title", "user_id", "line_1", "line_2", "line_3", "line_4", "line_5", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Moon Of The Prison"], ["user_id", 4], ["line_1", "A-You did a bad thing for a good reason."], ["line_2", "B-You got a package for me?"], ["line_3", "A-I have been checking you out."], ["line_4", "B-We could get arrested for this."], ["line_5", "A-Well, this is where I live."], ["img_url", "https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg"], ["created_at", "2018-06-19 17:58:50.739944"], ["updated_at", "2018-06-19 17:58:50.739944"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:65
+  [1m[36mScript Create (0.4ms)[0m  [1m[32mINSERT INTO "scripts" ("title", "user_id", "line_1", "line_2", "line_3", "line_4", "line_5", "img_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Fish Of Hope"], ["user_id", 5], ["line_1", "A-How dare you look down your nose at me like that."], ["line_2", "A-Move away from the door and let me at him."], ["line_3", "B-I did a pregnancy test."], ["line_4", "A-Nothing is THAT important, you know."], ["line_5", "B-If you leave now, you lose everything."], ["img_url", "https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg"], ["created_at", "2018-06-19 17:58:50.742898"], ["updated_at", "2018-06-19 17:58:50.742898"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mScript Load (0.3ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mProduction Create (0.6ms)[0m  [1m[32mINSERT INTO "productions" ("user_id", "script_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["script_id", 1], ["created_at", "2018-06-19 17:58:50.761214"], ["updated_at", "2018-06-19 17:58:50.761214"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mScript Load (0.2ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mProduction Create (0.3ms)[0m  [1m[32mINSERT INTO "productions" ("user_id", "script_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["script_id", 2], ["created_at", "2018-06-19 17:58:50.765385"], ["updated_at", "2018-06-19 17:58:50.765385"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mScript Load (0.3ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mProduction Create (0.3ms)[0m  [1m[32mINSERT INTO "productions" ("user_id", "script_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["script_id", 3], ["created_at", "2018-06-19 17:58:50.769072"], ["updated_at", "2018-06-19 17:58:50.769072"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mScript Load (0.2ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mProduction Create (0.3ms)[0m  [1m[32mINSERT INTO "productions" ("user_id", "script_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["script_id", 4], ["created_at", "2018-06-19 17:58:50.772656"], ["updated_at", "2018-06-19 17:58:50.772656"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mScript Load (0.2ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mProduction Create (0.3ms)[0m  [1m[32mINSERT INTO "productions" ("user_id", "script_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["script_id", 5], ["created_at", "2018-06-19 17:58:50.776206"], ["updated_at", "2018-06-19 17:58:50.776206"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.3ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.3ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.6ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 1], ["production_id", 1], ["created_at", "2018-06-19 17:58:50.792914"], ["updated_at", "2018-06-19 17:58:50.792914"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.2ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 2], ["production_id", 1], ["created_at", "2018-06-19 17:58:50.796927"], ["updated_at", "2018-06-19 17:58:50.796927"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.3ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 3], ["production_id", 2], ["created_at", "2018-06-19 17:58:50.800882"], ["updated_at", "2018-06-19 17:58:50.800882"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.2ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 4], ["production_id", 2], ["created_at", "2018-06-19 17:58:50.805291"], ["updated_at", "2018-06-19 17:58:50.805291"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.2ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 5], ["production_id", 3], ["created_at", "2018-06-19 17:58:50.809210"], ["updated_at", "2018-06-19 17:58:50.809210"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.2ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 6], ["production_id", 3], ["created_at", "2018-06-19 17:58:50.813068"], ["updated_at", "2018-06-19 17:58:50.813068"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.1ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 1], ["production_id", 4], ["created_at", "2018-06-19 17:58:50.816609"], ["updated_at", "2018-06-19 17:58:50.816609"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.1ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.1ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 5], ["production_id", 4], ["created_at", "2018-06-19 17:58:50.819936"], ["updated_at", "2018-06-19 17:58:50.819936"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.2ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.1ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 3], ["production_id", 5], ["created_at", "2018-06-19 17:58:50.823429"], ["updated_at", "2018-06-19 17:58:50.823429"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:73
+  [1m[36mActor Load (0.2ms)[0m  [1m[34mSELECT  "actors".* FROM "actors" WHERE "actors"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mProduction Load (0.2ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" WHERE "productions"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:73
+  [1m[36mCast Create (0.3ms)[0m  [1m[32mINSERT INTO "casts" ("actor_id", "production_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["actor_id", 2], ["production_id", 5], ["created_at", "2018-06-19 17:58:50.827383"], ["updated_at", "2018-06-19 17:58:50.827383"]]
+  ↳ db/seeds.rb:73
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:73
+Started GET "/" for 127.0.0.1 at 2018-06-19 13:59:43 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-19 13:59:49 -0400
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:6
+No serializer found for resource: {:id=>1, :username=>"theshun"}
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Array (0.52ms)
+Completed 200 OK in 56ms (Views: 11.5ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/api/v1/actors" for 127.0.0.1 at 2018-06-19 14:00:01 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/actors"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/actors" for 127.0.0.1 at 2018-06-19 14:03:57 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/actors"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/actors" for 127.0.0.1 at 2018-06-19 14:04:11 -0400
+Processing by Api::V1::ActorsController#index as HTML
+  [1m[36mActor Load (0.7ms)[0m  [1m[34mSELECT "actors".* FROM "actors"[0m
+  ↳ app/controllers/api/v1/actors_controller.rb:5
+No serializer found for resource: #<Actor id: 1, name: "Adriana", cv: "The Comedy of Errors", img_url: "https://portertones.files.wordpress.com/2011/04/hu...", created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Actor::ActiveRecord_Relation (1.12ms)
+Completed 200 OK in 37ms (Views: 25.4ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/api/v1/actors" for 127.0.0.1 at 2018-06-19 14:04:21 -0400
+Processing by Api::V1::ActorsController#index as HTML
+  [1m[36mActor Load (1.1ms)[0m  [1m[34mSELECT "actors".* FROM "actors"[0m
+  ↳ app/controllers/api/v1/actors_controller.rb:5
+No serializer found for resource: #<Actor id: 1, name: "Adriana", cv: "The Comedy of Errors", img_url: "https://portertones.files.wordpress.com/2011/04/hu...", created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Actor::ActiveRecord_Relation (2.16ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:04:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:04:59 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:05:01 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:05:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:05:20 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:05:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:05:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/cast" for 127.0.0.1 at 2018-06-19 14:05:25 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/cast"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:05:28 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 14:05:39 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.7ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 10.3ms)
+
+
+  
+NameError (uninitialized constant Api::V1::ProductionsController::Character):
+  
+app/controllers/api/v1/productions_controller.rb:7:in `block in index'
+app/controllers/api/v1/productions_controller.rb:6:in `map'
+app/controllers/api/v1/productions_controller.rb:6:in `index'
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 14:05:53 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.4ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3@global/gems/did_you_mean-1.0.0/lib/did_you_mean/core_ext/name_error.rb:10
+  [1m[36mCACHE Production Load (0.0ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3@global/gems/did_you_mean-1.0.0/lib/did_you_mean/core_ext/name_error.rb:6
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Production Load (0.0ms)[0m  [1m[34mSELECT  "productions".* FROM "productions" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3@global/gems/did_you_mean-1.0.0/lib/did_you_mean/core_ext/name_error.rb:10
+NameError (undefined local variable or method `dude' for #<Api::V1::ProductionsController:0x007ff8f7957098>):
+  
+app/controllers/api/v1/productions_controller.rb:6:in `index'
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 14:06:18 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.3ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+No serializer found for resource: #<Production id: 1, user_id: 1, script_id: 1, img_url: nil, created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Production::ActiveRecord_Relation (1.8ms)
+Completed 200 OK in 32ms (Views: 21.8ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:06:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/casts"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/casts" for 127.0.0.1 at 2018-06-19 14:06:43 -0400
+Processing by Api::V1::CastsController#index as HTML
+  [1m[36mCast Load (0.8ms)[0m  [1m[34mSELECT "casts".* FROM "casts"[0m
+  ↳ app/controllers/api/v1/casts_controller.rb:4
+No serializer found for resource: #<Cast id: 1, actor_id: 1, production_id: 1, created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Cast::ActiveRecord_Relation (2.04ms)
+Completed 200 OK in 39ms (Views: 28.2ms | ActiveRecord: 7.3ms)
+
+
