@@ -4237,3 +4237,125 @@ No serializer found for resource: #<Actor id: 1, name: "Adriana", cv: "The Comed
 Completed 200 OK in 46ms (Views: 26.3ms | ActiveRecord: 15.0ms)
 
 
+Started GET "/api/v1/actors" for 127.0.0.1 at 2018-06-19 14:35:37 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::ActorsController#index as HTML
+  [1m[36mActor Load (0.7ms)[0m  [1m[34mSELECT "actors".* FROM "actors"[0m
+  ↳ app/controllers/api/v1/actors_controller.rb:5
+No serializer found for resource: #<Actor id: 1, name: "Adriana", cv: "The Comedy of Errors", img_url: "https://portertones.files.wordpress.com/2011/04/hu...", created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Actor::ActiveRecord_Relation (1.19ms)
+Completed 200 OK in 34ms (Views: 22.3ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/api/v1/actors" for 127.0.0.1 at 2018-06-19 14:57:45 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::ActorsController#index as HTML
+  [1m[36mActor Load (0.8ms)[0m  [1m[34mSELECT "actors".* FROM "actors"[0m
+  ↳ app/controllers/api/v1/actors_controller.rb:5
+No serializer found for resource: #<Actor id: 1, name: "Adriana", cv: "The Comedy of Errors", img_url: "https://portertones.files.wordpress.com/2011/04/hu...", created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Actor::ActiveRecord_Relation (2.28ms)
+Completed 200 OK in 39ms (Views: 26.8ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 14:57:48 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.7ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+No serializer found for resource: #<Production id: 1, user_id: 1, script_id: 1, img_url: nil, created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Production::ActiveRecord_Relation (1.22ms)
+Completed 200 OK in 32ms (Views: 17.6ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 14:57:49 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.4ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+No serializer found for resource: #<Production id: 1, user_id: 1, script_id: 1, img_url: nil, created_at: "2018-06-19 17:58:50", updated_at: "2018-06-19 17:58:50">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Production::ActiveRecord_Relation (1.29ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 15:01:13 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.6ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.6ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (44.45ms)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 17.3ms)
+
+
+  
+LoadError (Unable to autoload constant ScriptSerializer, expected /Users/flatironschool/Development/Module4/off_broadway_backend/app/serializers/script_serializer.rb to define it):
+  
+app/controllers/api/v1/productions_controller.rb:6:in `index'
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 15:01:15 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (1.3ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.4ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.42ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 2.3ms)
+
+
+  
+LoadError (Unable to autoload constant ScriptSerializer, expected /Users/flatironschool/Development/Module4/off_broadway_backend/app/serializers/script_serializer.rb to define it):
+  
+app/controllers/api/v1/productions_controller.rb:6:in `index'
+Started GET "/api/v1/productions" for 127.0.0.1 at 2018-06-19 15:03:19 -0400
+Processing by Api::V1::ProductionsController#index as HTML
+  [1m[36mProduction Load (0.4ms)[0m  [1m[34mSELECT "productions".* FROM "productions"[0m
+  ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.3ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mCast Load (0.4ms)[0m  [1m[34mSELECT "casts".* FROM "casts" WHERE "casts"."production_id" = $1[0m  [["production_id", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mActor Load (0.6ms)[0m  [1m[34mSELECT "actors".* FROM "actors" INNER JOIN "casts" ON "actors"."id" = "casts"."actor_id" WHERE "casts"."production_id" = $1[0m  [["production_id", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.5ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mCast Load (0.7ms)[0m  [1m[34mSELECT "casts".* FROM "casts" WHERE "casts"."production_id" = $1[0m  [["production_id", 2]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mActor Load (0.4ms)[0m  [1m[34mSELECT "actors".* FROM "actors" INNER JOIN "casts" ON "actors"."id" = "casts"."actor_id" WHERE "casts"."production_id" = $1[0m  [["production_id", 2]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.3ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mCast Load (0.4ms)[0m  [1m[34mSELECT "casts".* FROM "casts" WHERE "casts"."production_id" = $1[0m  [["production_id", 3]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mActor Load (0.8ms)[0m  [1m[34mSELECT "actors".* FROM "actors" INNER JOIN "casts" ON "actors"."id" = "casts"."actor_id" WHERE "casts"."production_id" = $1[0m  [["production_id", 3]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.4ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mCast Load (0.3ms)[0m  [1m[34mSELECT "casts".* FROM "casts" WHERE "casts"."production_id" = $1[0m  [["production_id", 4]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mActor Load (0.4ms)[0m  [1m[34mSELECT "actors".* FROM "actors" INNER JOIN "casts" ON "actors"."id" = "casts"."actor_id" WHERE "casts"."production_id" = $1[0m  [["production_id", 4]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mScript Load (0.5ms)[0m  [1m[34mSELECT  "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mCast Load (0.4ms)[0m  [1m[34mSELECT "casts".* FROM "casts" WHERE "casts"."production_id" = $1[0m  [["production_id", 5]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers]   [1m[36mActor Load (0.6ms)[0m  [1m[34mSELECT "actors".* FROM "actors" INNER JOIN "casts" ON "actors"."id" = "casts"."actor_id" WHERE "casts"."production_id" = $1[0m  [["production_id", 5]]
+[active_model_serializers]   ↳ app/controllers/api/v1/productions_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (135.94ms)
+Completed 200 OK in 157ms (Views: 116.3ms | ActiveRecord: 37.3ms)
+
+
