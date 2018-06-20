@@ -9,7 +9,7 @@ class Api::V1::ProductionsController < ApplicationController
     def create
         production = Production.new(production_params)
         if production.save
-            render json: production
+            render json: {'productionId' => production.id}
         else
             render json: {error: 'Something went wrong!'}
         end
@@ -31,7 +31,7 @@ class Api::V1::ProductionsController < ApplicationController
 
     private
         def production_params
-            params.permit(:user_id, :character_id, :script_id, :img_url)
+            params.permit(:user_id, :actor_id, :script_id, :img_url)
         end
 
         def find_production

@@ -2,7 +2,10 @@ class Api::V1::UsersController < ApplicationController
     before_action :get_user, only: [:show]
 
     def index
-        @users = User.all
+        users = User.all
+        @users = users.map do |user|
+            {id: user.id, username: user.username}
+        end
         render json: @users
     end
 

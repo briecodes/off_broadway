@@ -14,7 +14,7 @@ users_list = [
     {username: 'realshun', password: 'shunthis'}
   ]
   
-  characters_list = [
+  actors_list = [
       {name: 'Adriana', cv: 'The Comedy of Errors', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'},
       {name: 'Isabel', cv: 'Richard II, Henry V', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'},
       {name: 'Rosalind', cv: 'As You Like It', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'},
@@ -33,30 +33,42 @@ users_list = [
   ]
   
   production_list = [
-      {user_id: 1, script_id: 1, character_id: 1},
-      {user_id: 1, script_id: 1, character_id: 2},
-      {user_id: 2, script_id: 2, character_id: 3},
-      {user_id: 2, script_id: 2, character_id: 4},
-      {user_id: 3, script_id: 3, character_id: 5},
-      {user_id: 3, script_id: 3, character_id: 6},
-      {user_id: 4, script_id: 4, character_id: 3},
-      {user_id: 4, script_id: 4, character_id: 6},
-      {user_id: 5, script_id: 5, character_id: 4},
-      {user_id: 5, script_id: 5, character_id: 1}
+      {user_id: 1, script_id: 1},
+      {user_id: 2, script_id: 2},
+      {user_id: 3, script_id: 3},
+      {user_id: 4, script_id: 4},
+      {user_id: 5, script_id: 5}
+  ]
+
+  cast_list = [
+    {actor_id: 1, production_id: 1},
+    {actor_id: 2, production_id: 1},
+    {actor_id: 3, production_id: 2},
+    {actor_id: 4, production_id: 2},
+    {actor_id: 5, production_id: 3},
+    {actor_id: 6, production_id: 3},
+    {actor_id: 1, production_id: 4},
+    {actor_id: 5, production_id: 4},
+    {actor_id: 3, production_id: 5},
+    {actor_id: 2, production_id: 5}
   ]
   
-  users_list.each do |hash|
+users_list.each do |hash|
     User.create(hash)
-  end
-  
-  characters_list.each do |hash|
-      Character.create(hash)
-  end
-  
-  script_list.each do |hash|
-      Script.create(hash)
-  end
-  
-  production_list.each do |hash|
-      Production.create(hash)
-  end
+end
+
+actors_list.each do |hash|
+    Actor.create(hash)
+end
+
+script_list.each do |hash|
+    Script.create(hash)
+end
+
+production_list.each do |hash|
+    Production.create(hash)
+end
+
+cast_list.each do |hash|
+    Cast.create(hash)
+end

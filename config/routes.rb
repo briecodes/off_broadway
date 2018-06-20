@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  resources :posts
   namespace :api do
     namespace :v1 do
-      resources :users, only: [:index, :create, :delete, :destroy]
-      resources :productions, only: [:index, :create, :delete, :destroy]
-      resources :scripts, only: [:index, :create, :delete, :destroy]
-      resources :characters, only: [:index, :create, :delete, :destroy]
+      resources :users, only: [:index, :show, :create, :delete, :destroy]
+      resources :productions, only: [:index, :show, :create, :delete, :destroy]
+      resources :scripts, only: [:index, :show, :create, :delete, :destroy]
+      resources :actors, only: [:index, :show, :create, :delete, :destroy]
+      resources :casts, only: [:index, :show, :create, :delete, :destroy]
       # get 'users/username'
       # get 'users/password'
       # get 'users/password_digest'

@@ -1,5 +1,6 @@
 class Production < ApplicationRecord
     belongs_to :user
     belongs_to :script
-    belongs_to :character
+    has_many :casts
+    has_many :actors, through: :casts
 end
