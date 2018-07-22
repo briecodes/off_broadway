@@ -1,5 +1,5 @@
 class ProductionSerializer < ActiveModel::Serializer
-    attributes :user_id, :script_id, :img_url, :id
+    attributes :user_id, :script_id, :id
 
     belongs_to :user
     belongs_to :script

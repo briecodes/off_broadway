@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2018_06_19_174447) do
     t.string "name"
     t.string "cv"
     t.string "img_url"
+    t.string "svg_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -33,7 +34,6 @@ ActiveRecord::Schema.define(version: 2018_06_19_174447) do
   create_table "productions", force: :cascade do |t|
     t.integer "user_id"
     t.integer "script_id"
-    t.string "img_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 2018_06_19_174447) do
   end
 
   create_table "users", force: :cascade do |t|
+    t.string "name"
     t.string "username"
     t.string "password"
     t.string "password_digest"

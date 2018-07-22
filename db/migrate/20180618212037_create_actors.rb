@@ -4,6 +4,7 @@ class CreateActors < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :cv
       t.string :img_url
+      t.string :svg_url
 
       t.timestamps
     end
