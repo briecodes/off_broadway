@@ -4,8 +4,9 @@ class SessionsController < ApplicationController
     if (@user && @user.authenticate(params['password']))
       token = create_token({username: @user.username, user_id: @user.id})
       render json: {
-        user: @user,
-        token: token
+        user: @user
+        # user: @user,
+        # token: token
       }
     else
       render json: {
