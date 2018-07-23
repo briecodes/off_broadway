@@ -11,7 +11,7 @@ class Api::V1::ProductionsController < ApplicationController
         if production.save
             render json: {'productionId' => production.id}
         else
-            render json: {error: 'Something went wrong!'}
+            render json: {errors: production.errors.fullmessages}
         end
     end
 
