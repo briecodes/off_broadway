@@ -1,5 +1,6 @@
 class Api::V1::ProductionsController < ApplicationController
     before_action :find_production, only: [:update, :destroy]
+    before_action :requires_login, only: [:index, :show, :update, :destroy]
     
     def index
         @productions = Production.all

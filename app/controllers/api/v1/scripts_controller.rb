@@ -1,5 +1,7 @@
 class Api::V1::ScriptsController < ApplicationController
     before_action :get_script, only: [:show, :edit, :delete]
+    before_action :requires_login, only: [:index, :show, :update, :destroy]
+    
     def index
         @scripts = Script.all
         render json: @scripts

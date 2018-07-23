@@ -1,5 +1,7 @@
 class Api::V1::ActorsController < ApplicationController
     before_action :get_actor, only: [:show]
+    before_action :requires_login, only: [:index, :show, :update, :destroy]
+    
     def index
         @actors = Actor.all
         render json: @actors
