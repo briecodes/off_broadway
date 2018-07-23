@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  post '/sessions', to: 'sessions#create', as: 'sessions'
+  post '/logout', to: 'sessions#destroy', as: 'log_out'
   resources :posts
   namespace :api do
     namespace :v1 do
@@ -12,5 +14,4 @@ Rails.application.routes.draw do
       # get 'users/password_digest'
     end
   end
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
