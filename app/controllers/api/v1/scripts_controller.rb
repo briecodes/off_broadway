@@ -16,7 +16,7 @@ class Api::V1::ScriptsController < ApplicationController
     def create
         script = Script.new(script_params)
         if script.save
-            render json: @script
+            render json: script.id
         else
             render json: {error: 'Something went wrong!'}
         end
