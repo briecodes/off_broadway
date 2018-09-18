@@ -1,6 +1,6 @@
 class Api::V1::ProductionsController < ApplicationController
     before_action :find_production, only: [:update, :destroy]
-    
+
     def index
         @productions = Production.all
         render json: @productions
@@ -9,7 +9,7 @@ class Api::V1::ProductionsController < ApplicationController
     def create
         production = Production.new(production_params)
         if production.save
-            render json: production
+            render json: {'productionId' => production.id}
         else
             render json: {error: 'Something went wrong!'}
         end
