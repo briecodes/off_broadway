@@ -17,6 +17,6 @@ class Api::V1::CastsController < ApplicationController
   private
 
   def cast_params
-    params.permit(:production_id, :actor_id)
+    params.require(:cast).permit(:production_id, :actor_id)
   end
 end
