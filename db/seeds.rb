@@ -12,8 +12,9 @@ users_list = [
     {username: '2shun2quit', password: 'shunthis'},
     {username: 'rashunalize', password: 'shunthis'},
     {username: 'realshun', password: 'shunthis'}
+    {username: 'dalewb', password: '1234'}
   ]
-  
+
   actors_list = [
       {name: 'Adriana', cv: 'The Comedy of Errors', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'},
       {name: 'Isabel', cv: 'Richard II, Henry V', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'},
@@ -22,16 +23,16 @@ users_list = [
       {name: 'Miranda', cv: 'The Tempest', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'},
       {name: 'Portia', cv: 'The Merchant of Venice, Julius Caesar', img_url: 'https://portertones.files.wordpress.com/2011/04/hughes-arthur-ophelia-detail.jpg'}
   ]
-  
+
   script_list = [
       {title: 'Savior Without Hope', user_id: 1, line_1: 'A-Spare some change, please?', line_2: 'B-I thought someone should tell you that your mother has died.', line_3: 'A-Have you read the newspaper stories about my wife?', line_4: 'B-She was unconscious when I found her', line_5: 'A-Whatever you are going to ask, the answer is No!', img_url: 'https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg'},
       {title: 'Agent Of Hell', user_id: 2, line_1: 'A-You are too good for this world.', line_2: 'B-You have taken her back? You cannot be serious?', line_3: 'A-The way you flirt is shameful.', line_4: 'B-You embarrassed me this evening.', line_5: 'A-I want to be there when you get whats coming to you.', img_url: 'https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg'},
       {title: 'Trees With A Goal', user_id: 3, line_1: 'A-What have you done with my pills? I need them!', line_2: 'B-We could get arrested for this.', line_3: 'A-Find some proof that she had betrayed you.', line_4: 'B-You think I am being paranoid but the truth is I am worth a lot more to her dead than alive.', line_5: 'A-You have his eyes.', img_url: 'https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg'},
       {title: 'Moon Of The Prison', user_id: 4, line_1: 'A-You did a bad thing for a good reason.', line_2: 'B-You got a package for me?', line_3: 'A-I have been checking you out.', line_4: 'B-We could get arrested for this.', line_5: 'A-Well, this is where I live.', img_url: 'https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg'},
       {title: 'Fish Of Hope', user_id: 5, line_1: 'A-How dare you look down your nose at me like that.', line_2: 'A-Move away from the door and let me at him.', line_3: 'B-I did a pregnancy test.', line_4: 'A-Nothing is THAT important, you know.', line_5: 'B-If you leave now, you lose everything.', img_url: 'https://1.bp.blogspot.com/_URIAyVxY7ZI/ScS4mcqpqbI/AAAAAAAADE4/OBycdFgwJRA/s1600/Front_Cover.jpg'}
-  
+
   ]
-  
+
   production_list = [
       {user_id: 1, script_id: 1},
       {user_id: 2, script_id: 2},
@@ -52,7 +53,7 @@ users_list = [
     {actor_id: 3, production_id: 5},
     {actor_id: 2, production_id: 5}
   ]
-  
+
 users_list.each do |hash|
     User.create(hash)
 end
